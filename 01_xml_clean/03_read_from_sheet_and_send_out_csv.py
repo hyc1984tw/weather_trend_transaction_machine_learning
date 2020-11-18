@@ -70,3 +70,7 @@ df22 = pd.DataFrame(k[22],columns = ['sunshineDuration_monthly_total'])
 df_list = pd.concat([df0,df1,df2,df3,df4,df5,df6,df7,df8,df9,df10,df11,df12,df13,df14,df15,df16,df17,df18,df19,df20,df21,df22],axis=1)
 
 df_list.to_csv(path_or_buf='C:/Users/MichaelCHEN/Desktop/weather_out_9_year')
+
+
+
+
