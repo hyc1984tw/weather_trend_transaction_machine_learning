@@ -1,5 +1,8 @@
+# purpose : get the data without the column name
 
-# 上面一樣
+
+
+# upper part the same 
 
 
 class GroupHandler(xml.sax.ContentHandler):
@@ -90,8 +93,10 @@ class GroupHandler(xml.sax.ContentHandler):
             print("{}".format(self.total))            
         self.current = ""   # 防止空白重複      
         
-        
-  # 下面一樣
+# below part the same
+
+# paste the outcome to google sheet
+  
   
   
   
