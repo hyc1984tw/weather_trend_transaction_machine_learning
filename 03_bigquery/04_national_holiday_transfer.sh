@@ -1,7 +1,7 @@
 # 2017
 
 bq --location=US load \
---field_delimiter=';' \
+--autodetect \
 --source_format=CSV \
 --skip_leading_rows=1 \
 tw_holiday.nationalholiday_2017_2020 \
