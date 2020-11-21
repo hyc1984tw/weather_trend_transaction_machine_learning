@@ -11,7 +11,6 @@
 #     gs://mybucket/mydata.csv
 
 
-
 # 201607
 
 bq --location=US load \
